@@ -41,7 +41,7 @@ const schema = yup.object({
   selectedEmbed: yup
     .number()
     .required("Embed type is required")
-    .oneOf([1, 2, 3, 4], "Invalid embed option"),
+    .oneOf([1, 2, 3, 4, 5], "Invalid embed option"),
 
   width: yup
     .number()
