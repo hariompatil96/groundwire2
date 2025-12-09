@@ -15,7 +15,7 @@ export default function Analytic(props) {
 
   const { data, isLoading, error } = useFetch(
     id,
-    `${API_ROUTES.getAnalyticByID}/${id}`
+    `${API_ROUTES.getAnalyticByID}/${id}`,
     {},
     { enabled: Boolean(id) }
   );
