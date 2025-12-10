@@ -246,6 +246,19 @@ const AnalyticEmbed = ({
                     ? "- Professions of Faith"
                     : ""}
                 </Typography>
+                
+                {showDecRange && (
+                  <Typography
+                    sx={{
+                      fontSize: "0.9rem",
+                      textAlign: "center",
+                      opacity: 0.7,
+                      mb: 1,
+                    }}
+                  >
+                    Showing results from <b>Dec 8–12</b>
+                  </Typography>
+                )}
 
                 {/* Reports Grid */}
                 <Grid
